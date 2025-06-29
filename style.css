@@ -18,8 +18,7 @@ body {
   position: absolute;
   inset: 0;
   padding: 5px;
-  background: linear-gradient(45deg,
-    red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   border-radius: 0;
   z-index: -1;
@@ -31,7 +30,6 @@ body {
   animation: rainbow 6s linear infinite;
 }
 
-/* แอนิเมชันสายรุ้ง */
 @keyframes rainbow {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -109,8 +107,7 @@ header p {
   position: absolute;
   inset: 0;
   padding: 2px;
-  background: linear-gradient(45deg,
-    red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   border-radius: inherit;
   z-index: -1;
@@ -185,30 +182,25 @@ header p {
   margin-bottom: 20px;
 }
 
-/* ✅ กรอบไฟสีรุ้งวิ่ง */
-/* ✅ กรอบไฟสีรุ้งวิ่ง */
 .rainbow-image-wrapper {
   display: inline-block;
   padding: 5px;
   border-radius: 12px;
   position: relative;
-  background: linear-gradient(45deg,
-    red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   animation: rainbow 6s linear infinite;
 }
 
-/* 🔽 ปรับขนาดรูปให้เล็กลง */
 .knowledge-image {
   display: block;
-  max-width: 900px; /* 👈 ขยายเป็น 3 เท่าจากเดิม */
+  max-width: 900px;
   width: 100%;
   height: auto;
   border-radius: 14px;
   box-shadow: 0 12px 28px rgba(0,0,0,0.08);
   margin: 0 auto;
 }
-
 
 /* ท้ายเว็บ */
 footer {
