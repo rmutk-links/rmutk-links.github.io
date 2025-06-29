@@ -18,7 +18,8 @@ body {
   position: absolute;
   inset: 0;
   padding: 5px;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg,
+    red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   border-radius: 0;
   z-index: -1;
@@ -101,13 +102,13 @@ header p {
   margin: 0 0 15px 0;
 }
 
-/* ขอบสายรุ้งสำหรับการ์ด */
 .rainbow-border::before {
   content: "";
   position: absolute;
   inset: 0;
   padding: 2px;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg,
+    red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   border-radius: inherit;
   z-index: -1;
@@ -187,7 +188,8 @@ header p {
   padding: 5px;
   border-radius: 12px;
   position: relative;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg,
+    red, orange, yellow, green, blue, indigo, violet, red);
   background-size: 400% 400%;
   animation: rainbow 6s linear infinite;
 }
