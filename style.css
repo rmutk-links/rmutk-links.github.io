@@ -167,6 +167,49 @@ header p {
   margin-top: 20px;
 }
 
+/* ✅ เกร็ดความรู้ */
+.knowledge-section {
+  background-color: #f0fff5;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.knowledge-section h2 {
+  color: #00965E;
+  margin-bottom: 10px;
+}
+
+.knowledge-section p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ✅ กรอบไฟสีรุ้งวิ่ง */
+/* ✅ กรอบไฟสีรุ้งวิ่ง */
+.rainbow-image-wrapper {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 12px;
+  position: relative;
+  background: linear-gradient(45deg,
+    red, orange, yellow, green, blue, indigo, violet, red);
+  background-size: 400% 400%;
+  animation: rainbow 6s linear infinite;
+}
+
+/* 🔽 ปรับขนาดรูปให้เล็กลง */
+.knowledge-image {
+  display: block;
+  max-width: 900px; /* 👈 ขยายเป็น 3 เท่าจากเดิม */
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+
+
 /* ท้ายเว็บ */
 footer {
   background-color: #00965E;
